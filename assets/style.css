@@ -2,13 +2,10 @@ body{
   background-image: url(../assets/img/painted-grey-background-with-metal-texture.jpg);
 }
 .color{
-  color: rgb(157, 0, 0);
+  color: red;
 }
 #txt-password {
   font-size: 3rem;
   text-align: center;
   margin-top: 150px;
-  }
-  strong:hover{
-    color: rgb(0, 0, 118);
   }
