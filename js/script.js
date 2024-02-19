@@ -11,7 +11,7 @@ const password = nome + cognome + colore + numero;
 console.log(password);
 
 document.getElementById("txt-password").innerHTML =`
+Ciao ${nome},<br>
+Questa e la tua nuova password : <strong class="${"color"}">${password}</strong> 
 
-Questa e la tua nuova password : ${password} 
-
-`;
+`
