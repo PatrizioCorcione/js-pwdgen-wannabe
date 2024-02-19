@@ -9,3 +9,9 @@ const numero = prompt('Scrivi un numero per rendere piu sicura la password');
 const password = nome + cognome + colore + numero;
 
 console.log(password);
+
+document.getElementById("txt-password").innerHTML =`
+
+Questa e la tua nuova password : ${password} 
+
+`;
